@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <title>Deeplay</title>
+    
+    <link rel="stylesheet" href="script.js">
+    
+</head>
+<body>
+    <header>
+
+
+        <nav>
+            <div class="nav-wrapper">
+            <button id="deeplayButton">CL-LAUNCHER</button>
+            <div class="nav-text">
+                <a href="#">Головна</a>
+                <a href="#Experience">Переваги</a>
+                <a href="#skills">Обзор</a>
+                <a href="#">Інформація</a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="assets/image.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Cl-launcher</h1>
+                <div class="text-typing">
+                <span id="typed"></span>
+            </div>
+
+            <script>
+                const audio = new Audio("assets/music.mp3");
+                const button = document.getElementById("deeplayButton");
+                button.addEventListener("click", () => {
+                    audio.play();
+                });
+            </script>
+            
+            <div id="typed-strings">
+                <span>Прямо зараз</span>
+                <span>Готуємо борщ</span>
+                
+            </div>
+
+            <script>
+            let typed = new Typed('#typed', { 
+                stringsElement: '#typed-strings',
+                typeSpeed: 100,
+                startDelay: 500,
+                backSpeed: 50,
+                loop: true,
+                backDelay: 500,
+                showCursor: true
+            });</script>
+            
+            <div class="text-typing">
+                <span id="typed"></span>
+            </div>
+            <!-- 
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>-->
+            <div class="btn">Скачати</a>
+                <a href="#" class="Strelka">-></a>
+            </div>
+            <div href="#skills" class="faq">FAQ</a></div>
+        </div>
+    </section>
+
+    <section class="home2" id="Experience">
+        <div class="Menu2">
+            <div class="Box1"><h2>Оптимізація</h2>
+                <br><h3>Лаунчер знижує навантаження на систему для плавної гри.</h3><br>
+            </div>
+            <div class="box2"><h2>Зручність</h2>
+                <br><h3>Простий інтерфейс та швидке налаштування модів.</h3><br>
+            </div>
+            <div class="box4"><h2>Безпека</h2>
+                <br><h3>Надійний захист ваших даних під час гри.</h3><br>
+            </div> 
+            <div class="box3"><h2>Функціональність</h2>
+                <br><h3>Підтримка модів та різних версій Minecraft.</h3><br>
+            </div>    
+        </div>             
+    </section>
+    <section class="home3" id="skills"> 
+        <div class="container">
+            <div class="textqq anim">Відео-Обзор</div>
+            <iframe class="youtube" src="https://www.youtube.com/embed/KwU1XZSWU-A?si=iWxFFtZA7Rc4WUVJ&amp"></iframe>
+        </div>
+    </section>    
+    <section class="home4" id="skills"> 
+        <div class="preloader">
+            <div class="preloader__row">
+              <div class="preloader__item"></div>
+              <div class="preloader__item"></div>
+            </div>
+          </div>
+
+<!-- Секция #1 - Faq Основное -->
+<section id="main">
+    <div class="page-text">
+        <h1 class="main-text anim"><b>Поширині питання:</b></h1>
+    </div>
+<div id="faq-u">
+    <div class="faq">
+        <div class="question">
+            <h2 class="qatitle">Чи є віруси??</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
+        </div>
+        <div class="answer">
+            <p>CL-Launcher повністю безпечний.
+                <br>Якщо ви завантажите лаунчер з цієї сторінки, ми гарантуємо відсутність вірусів.
+            </p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="question">
+            <h2 class="qatitle">Чи я можу встановлювати моди?</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
+        </div>
+        <div class="answer">
+            <p>Так, звичайно!
+
+                У програмі запуску є популярні версії Forge і Fabric, які можна встановити автоматично всього за кілька кліків.
+                <br>Ви також можете встановити Forge і Fabric вручну, як і з офіційного лаунчеру.
+            </p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="question">
+            <h2 class="qatitle">Виникла помилка в лаунчері.Що робити?</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
+        </div>
+        <div class="answer">
+            <p>Ну буває :). Зверніться в підтримку в діскорді!
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="question">
+            <h2 class="qatitle">Чи я можу встановлювати лаунчер на інші ОС</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
+        </div>
+        <div class="answer">
+            <p>Ні. Наданий час лаунчер можна скачати тільки на Windown
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class="page-text">
+        <h1 class="main-text anim"><b>Інформація</b></h1>
+    </div>
+    <div class="faq">
+        <div class="question">
+            <h2 class="qatitle">Контакти</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
+        </div>
+        <div class="answer">
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="question">
+            <h2 class="qatitle">Політика</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
+        </div>
+        <div class="answer">
+            <p>Умови користування<br>Конфіденційність<br>Користувальницька Угода
+            </p>
+        </div>
+    </div>
+
+
+<script>
+            window.onload = function () {
+              document.body.classList.add('loaded_hiding');
+              window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+              }, 500);
+            }
+            
+            //Sticky header 
+            document.addEventListener("DOMContentLoaded", function() {
+                const header = document.querySelector("header");
+                window.addEventListener("scroll", function() { 
+                    header.classList.toggle("sticky", window.scrollY > 20);
+                });
+            });
+            
+            const faqs = document.querySelectorAll(".faq");
+            
+            faqs.forEach((faq) => {
+                faq.addEventListener("click", () => {
+                    faq.classList.toggle("active");
+                });
+            });
+</script>            
+
+    </section>
+</body>
+</html>
